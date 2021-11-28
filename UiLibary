@@ -1058,7 +1058,7 @@ function Lib:CreateWindow(Name)
         Title_2.ZIndex = 2
         Title_2.Font = Enum.Font.GothamBold
         Title_2.Text = " "..text
-        Title_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+        Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
         Title_2.TextSize = 13.000
         Title_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
         Title_2.TextStrokeTransparency = 0.920
@@ -1077,7 +1077,7 @@ function Lib:CreateWindow(Name)
         minimize.ZIndex = 3
         minimize.Font = Enum.Font.GothamBold
         minimize.Text = "-"
-        minimize.TextColor3 = Color3.fromRGB(255, 0, 0)
+        minimize.TextColor3 = Color3.fromRGB(255, 255, 255)
         minimize.TextSize = 12.000
         minimize.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
         minimize.TextStrokeTransparency = 0.920
